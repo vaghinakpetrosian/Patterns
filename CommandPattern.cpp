@@ -144,6 +144,4 @@ int main() {
     app.executeCommand(std::make_unique<CutCommand>(&app, &app.editor));
     app.executeCommand(std::make_unique<PasteCommand>(&app, &app.editor));
     app.executeCommand(std::make_unique<UndoCommand>(&app, &app.editor));
-
-    return 0;
 }
